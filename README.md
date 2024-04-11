@@ -21,7 +21,7 @@ Demo: [https://drive.google.com/file/d/1QQgcX9hPnKsV48KKYS8AE7x5cHQG_QPR/view?us
 
 - Use TailwindCSS classes to style your elements
 - Every time you make changes to your parallel and intercepting route, make sure to run `npm run dev` again
-- Use the `<Image />` component from 'next/image' to display an image. Do **NOT* use `<img>`. Here is link to their documentation [https://nextjs.org/docs/pages/api-reference/components/image]
+- Use the `<Image />` component from 'next/image' to display an image. Do **NOT** use `<img>`. Here is link to their documentation [https://nextjs.org/docs/pages/api-reference/components/image]
 - Make sure to replace the code inside your `next.config.mjs` file with the code below. You need to do this so that you can use `<Image />` with external images:
 
 ```js
