@@ -10,7 +10,7 @@ Demo: [https://drive.google.com/file/d/1QQgcX9hPnKsV48KKYS8AE7x5cHQG_QPR/view?us
 2. Clone the repository to your local and switch to the `dev` branch
 3. Create a NextJS project by running `npx create-next-app@latest`. Name your app **nextjs-gallery**
 4. Create a route/folder called `/gallery` inside your *app* directory
-5. Create a navigation header so that it is easier to switch between your home and gallery pages. Use `<Link></Link>` component from 'next/link' instead of `<a></a>`
+5. Create a navigation component so that it is easier to switch between your home and gallery pages. Use `<Link></Link>` component from 'next/link' instead of `<a></a>`
 6. Fetch the photos from `https://jsonplaceholder.typicode.com/photos` and display the thumbnails in the gallery page
 7. Each image should be clickable. Create a dynamic route for the photo detail page
 8. Clicking on an image will open a modal created using a Parallel+Intercepting route
@@ -35,7 +35,8 @@ const nextConfig = {
 export default nextConfig;
 ```
 
-## API Resources
+## Resources
 
 - For all photos: [https://jsonplaceholder.typicode.com/photos]
 - For individual photos by id: [https://jsonplaceholder.typicode.com/photos/1]
+- Code-along: [https://github.com/elmerdotdev/nextjs-day-2-code-along]
