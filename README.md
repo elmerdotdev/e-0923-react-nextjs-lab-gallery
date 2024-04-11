@@ -1,6 +1,7 @@
 # E-0923 React NextJS Lab - Gallery
 
 Goal: Create a gallery page using NextJS similar to Unsplash. Recreate the site shown on the demo video as much as you can
+
 Demo: [https://drive.google.com/file/d/1QQgcX9hPnKsV48KKYS8AE7x5cHQG_QPR/view?usp=sharing]
 
 ## Instructions
