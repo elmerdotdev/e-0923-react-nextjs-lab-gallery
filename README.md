@@ -4,7 +4,7 @@
 
 Demo: [https://drive.google.com/file/d/1QQgcX9hPnKsV48KKYS8AE7x5cHQG_QPR/view?usp=sharing]
 
-## Instructions
+## Instructions ✅
 
 1. Create a NextJS project by running `npx create-next-app@latest`. Name your app **nextjs-gallery**.
 2. Create a route/folder called `/gallery` inside your *app* directory.
@@ -15,7 +15,7 @@ Demo: [https://drive.google.com/file/d/1QQgcX9hPnKsV48KKYS8AE7x5cHQG_QPR/view?us
 7. Refreshing the page while the modal is open should load the actual photo detail page.
 8. Push your changes once you are done.
 
-## Important Notes
+### Important Notes 📝
 
 - Use TailwindCSS classes to style your elements.
 - Every time you make changes to your parallel and intercepting route, make sure to run `npm run dev` again.
