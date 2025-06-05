@@ -7,7 +7,7 @@ Demo: [https://drive.google.com/file/d/1QQgcX9hPnKsV48KKYS8AE7x5cHQG_QPR/view?us
 ## Instructions ✅
 
 1. Create a NextJS project by running `npx create-next-app@latest`. Name your app **nextjs-gallery**.
-2. Create a route/folder called `/gallery` inside your *app* directory.
+2. Use App Router for the project. Create a route/folder called `/gallery` inside your *app* directory.
 3. Create a navigation component so that it is easier to switch between your home and gallery pages. Use `<Link></Link>` component from 'next/link' instead of `<a></a>`.
 4. Fetch the photos from `https://jsonplaceholder.typicode.com/photos` and display the thumbnails in the gallery page.
 5. Each image should be clickable. Create a dynamic route for the photo detail page.
@@ -19,7 +19,7 @@ Demo: [https://drive.google.com/file/d/1QQgcX9hPnKsV48KKYS8AE7x5cHQG_QPR/view?us
 
 - Use TailwindCSS classes to style your elements.
 - Every time you make changes to your parallel and intercepting route, make sure to run `npm run dev` again.
-- Use the `<Image />` component from 'next/image' to display an image. Do **NOT** use `<img>`. Here is the link to their documentation [https://nextjs.org/docs/pages/api-reference/components/image].
+- Use the `<Image />` component from 'next/image' to display an image. Do **NOT** use `<img>`. Here is the link to their documentation [https://nextjs.org/docs/app/api-reference/components/image].
 - Make sure to replace the code inside your `next.config.mjs` file with the code below. You need to do this so that you can use `<Image />` with the images provided by `jsonplaceholder.typicode.com`:
 
     ```js
