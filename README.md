@@ -13,7 +13,7 @@ Demo: [https://drive.google.com/file/d/1QQgcX9hPnKsV48KKYS8AE7x5cHQG_QPR/view?us
 5. Each image should be clickable. Create a dynamic route for the photo detail page.
 6. Clicking on an image will open a modal created using a Parallel and Intercepting route.
 7. Refreshing the page while the modal is open should load the actual photo detail page.
-8. Push your changes once you are done.
+8. Commit and push your changes once you are done.
 
 ### Important Notes 📝
 
