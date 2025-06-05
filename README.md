@@ -42,7 +42,7 @@ Demo: [https://drive.google.com/file/d/1QQgcX9hPnKsV48KKYS8AE7x5cHQG_QPR/view?us
     export default config
     ```
 
-    You can read more about this in their (documentation)[https://nextjs.org/docs/app/getting-started/images#remote-images].
+    You can read more about this in their [!documentation](https://nextjs.org/docs/app/getting-started/images#remote-images).
 
 ## Resources
 
