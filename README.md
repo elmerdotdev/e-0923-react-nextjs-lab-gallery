@@ -20,18 +20,29 @@ Demo: [https://drive.google.com/file/d/1QQgcX9hPnKsV48KKYS8AE7x5cHQG_QPR/view?us
 - Use TailwindCSS classes to style your elements.
 - Every time you make changes to your parallel and intercepting route, make sure to run `npm run dev` again.
 - Use the `<Image />` component from 'next/image' to display an image. Do **NOT** use `<img>`. Here is the link to their documentation [https://nextjs.org/docs/app/api-reference/components/image].
-- Make sure to replace the code inside your `next.config.mjs` file with the code below. You need to do this so that you can use `<Image />` with the images provided by `jsonplaceholder.typicode.com`:
+- Make sure to replace the code inside your `next.config.ts` file with the code below. You need to do this so that you can use `<Image />` with the images provided by `jsonplaceholder.typicode.com`:
 
     ```js
-    /** @type {import('next').NextConfig} */
-    const nextConfig = {
+    import type { NextConfig } from 'next'
+     
+    const config: NextConfig = {
       images: {
-        domains: ['via.placeholder.com'],
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: 'via.placeholder.com',
+            port: '',
+            pathname: '**',
+            search: '',
+          },
+        ],
       },
-    };
-    
-    export default nextConfig;
+    }
+     
+    export default config
     ```
+
+    You can read more about this in their (documentation)[https://nextjs.org/docs/app/getting-started/images#remote-images].
 
 ## Resources
 
